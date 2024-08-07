@@ -26,3 +26,5 @@ for (let chave in pessoa) {
 // for in - retorna o indice ou chave (string, array ou objetos)
 
 // for of - retorna o valor em si (iteraveis, arrays ou strings)
+
+// Objetos iteráveis são aqueles que implementam o protocolo de iteração, permitindo que seus elementos sejam percorridos um a um. Em JavaScript, muitos tipos de dados são iteráveis por padrão, incluindo arrays, strings, conjuntos (Set), mapas (Map) e objetos como o objeto arguments dentro de funções.
