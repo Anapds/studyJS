@@ -1,0 +1,28 @@
+const frutas = ['Pera', 'uva', 'maçã'];
+
+for (let i = 0; i < frutas.length; i++) {
+    console.log(frutas[i]);
+}
+
+const frutass = ['morango', 'banana', 'mamão'];
+
+for (let i in frutas) {
+    console.log(frutass[i]);
+}
+
+const pessoa = {
+    nome: 'ana',
+    sobrenome: 'santos',
+    idade: 20
+};
+
+for (let chave in pessoa) {
+    console.log(chave, (pessoa[chave]));
+}
+
+
+// for classico - Geralmente com ieráveis (array ou strings)
+
+// for in - retorna o indice ou chave (string, array ou objetos)
+
+// for of - retorna o valor em si (iteraveis, arrays ou strings)
