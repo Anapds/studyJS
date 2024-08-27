@@ -27,3 +27,5 @@
 // const C = 30;
 
 // console.log(soma > C ? 'a constante c é menor' : 'a constante c é maior');
+
+
